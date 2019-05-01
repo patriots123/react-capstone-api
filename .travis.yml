@@ -1,0 +1,12 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  edge: true
+  api_key:
+    secure: KkNEv3Q9E7Bixdt//OJodEibhjyWNEvvXX/DkBWdMHJ+/41LaDCmbh4iDUJqYzSyRsF1xXvq7qo/M8/j5lI4+XxJnQ2hSawD0nWeuhD7n5oTsJvmdncx5bIpBoNnpvuU9hpyDHO00T68HLhGDVdmW3L9PjzVYXb3Jd7IDCmz/gcTYZmYTIQn6iUVszf60c8MZcts2oSDgJ5Uxs1bVKQ58oqVBarfldwrM3hCKwHocYzgiHdJSAus7DqkNQ+AuUXJhKoJrnNwxAufMw3LQGjEKBR191XgoEri0lCnqPtqKDL0BNhS9UfLaMs+gEOeZXC3BBoOn5w3CqH7WSeXnApa22DD0F4j8/F7mv+CEg+R7ohouGeGj3v++DFUvaT/di9uxi6+sDI014p9GfIyghESK3Hfuno+HMmSWAvzdo1S+paHY8tQrKMa52m5S+ajUg8oJjGCWQEuc5nc38+z8O8ds6tMqqec8UIpS1m4fSqAeZsa9Cd8JpyV+0LFGFHmfNYnqtEjn5JowAtzh8UZMmQZJQnBTYzA1erPx+/erJgM5gs7EHqslYQ3ss9d+OoNr7YJZOAo0vFm7b4vew6Rwqk6ZuT0KESGuCghWjhp3U/V5Am0M4yyKUoSB/qyGsGK49QvYpa2JcVmIJxlHBpvQ3iyBG6NEBfQrBJ5zAV/WA+5n+M=
+  app: react-capstone-api
+  on:
+    repo: patriots123/react-capstone-api
